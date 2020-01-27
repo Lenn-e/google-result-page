@@ -1,0 +1,18 @@
+html, body {
+    height: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 120px 35% auto;
+    grid-template-rows: 80px 50px 30px auto auto auto 70px 50px 50px;
+}
+
+.logo-container {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.logo {
+    height: 30px;
+    width: 92px;
+}

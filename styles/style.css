@@ -7,7 +7,7 @@ html, body {
 .container {
     display: grid;
     grid-template-columns: 170px 632px auto;
-    grid-template-rows: 80px 40px 50px auto auto auto 70px 50px 50px;
+    grid-template-rows: 80px 40px 50px auto auto auto auto auto 50px;
 }
 
 .logo-container {
@@ -291,4 +291,47 @@ cite {
 .result-container:nth-child(9) {
     grid-area: 7 / 2 / 8 / 3;
 }
+
+.page-navigation-container {
+    grid-area: 8 / 2 / 9 / 3;
+}
+
+table {
+    font-size: 14px;
+    display: table;
+    border-collapse: collapse;
+    text-align: left;
+    margin: 30px auto 30px;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tbody a {
+    text-decoration: none;
+}
+
+tbody a:hover {
+    text-decoration: underline;
+}
+
+td {
+    padding: 0;
+    text-align: center;
+    display: table-cell;
+    vertical-align: top;
+    border-collapse: collapse;
+    border-spacing: 2px;
+}
+
+td span:nth-child(1) {
+    height: 40px;
+    display: block;
+    
+}
+
+
 
